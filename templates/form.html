@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Information</title>
+    <style>
+            body{
+                font-family: Arial, sans-serif;
+                background: #f5f5f5;
+                padding: 30px;
+            }
+            .container{
+                background: white;
+                padding: 20px;
+                width: 500px;
+                margin: auto;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            input{
+                width: 500px;
+                padding: 10px 0px;
+                margin: 10px 0px;
+            }
+
+            button{
+                padding: 10px 20px;
+                background: #0066ff;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+            }
+            button:hover{
+                background: #004ddb;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label>Username: </label>
+            <input type="text" name="username" required>
+
+            <label>Password: </label>
+            <input type="number" name="password" required>
+            
+            <button type="submit">Sumit
+            </button>
+        </form>
+    </div>
+    
+    <div class="container">
+        <a class="btn" href="mycv">My CV</a>
+    </div>
+
+    <div style="text-align:center;">
+        <a class="btn" href="/records">Records</a>
+    </div>
+</body>
+</html>
